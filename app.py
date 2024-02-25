@@ -8,7 +8,6 @@ channels = {"StarSports1": "https://edge4-moblive.yuppcdn.net/trans1sd/smil:star
             "SonyTv5": "https://edge4-moblive.yuppcdn.net/trans1sd/smil:tensports5.smil/playlist.m3u8",
             "EventXtra": "https://edge4-moblive.yuppcdn.net/transsd/smil:eventtvextra.smil/playlist.m3u8",
             }
-myword = "Age"
 app = Flask(__name__)
 @app.route('/Madu', methods=['GET'])
 def index():
